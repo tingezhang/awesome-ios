@@ -4,72 +4,72 @@ A curated list of awesome iOS frameworks, libraries, tutorials, plugins Xcode, c
 The list is divided into categories such as Frameworks, Components, Testing and others,  open source projects, free and paid services. There is no pre-established order of items in each category, the order is for contribution. If you want to contribute, please read the [guide](https://github.com/vsouza/awesome-ios/blob/master/CONTRIBUTING.md).
 
 ### Contents
- - [Getting Started](#getting-started)
- - [Library and Frameworks](#libraries-and-frameworks)
-     - [Cache](#cache)
+ - [入门指南(Getting Started)](#getting-started)
+ - [库和框架(Library and Frameworks)](#libraries-and-frameworks)
+     - [缓存(Cache)](#cache)
      - [Core Data](#core-data)
-     - [Database](#database)
+     - [数据库(Database)](#database)
      - [HUD](#hud)
-     - [Images](#images)
+     - [图像(Images)](#images)
      - [JSON](#json)
-     - [Logging](#logging)
-     - [Maps](#maps)
-     - [Networking](#networking)
+     - [日志(Logging)](#logging)
+     - [地图(Maps)](#maps)
+     - [网络(Networking)](#networking)
      - [Push](#push)
      - [Passbook](#passbook)
      - [Text](#text)
      - [UI](#ui)
      - [Websocket](#websocket)
-     - [Code Quality](#code-quality)
-     - [Analytics](#analytics)
-     - [Payments](#payments)
+     - [代码质量(Code Quality)](#code-quality)
+     - [分析(Analytics)](#analytics)
+     - [支付(Payments)](#payments)
 
-- [Project setup](#project-setup)
-- [Dependency Manager](#dependency-manager)
-- [Testing](#testing)
-    - [TDD / BDD](#tdd--bdd)
-    - [UI Testing](#ui-testing)
-    - [Beta Distribution](#beta-distribution)
-- [Toolchains](#toolchains)
-- [Rapid Development](#rapid-development)
-- [Deployment](#deployment)
+- [项目搭建(Project setup)](#project-setup)
+- [依赖管理(Dependency Manager)](#dependency-manager)
+- [测试(Testing)](#testing)
+    - [测试驱动开发(TDD) / 行为驱动开发(BDD)](#tdd--bdd)
+    - [界面测试(UI Testing)](#ui-testing)
+    - [beta版本发布(Beta Distribution)](#beta-distribution)
+- [工具链(Toolchains)](#toolchains)
+- [快速开发(Rapid Development)](#rapid-development)
+- [部署(Deployment)](#deployment)
 - [SDK](#sdk)
-- [Xcode](#xcode)
-    - [Plugins](#plugins)
-    - [Package Manager](#package-manager)
-    - [Themes](#themes)
+- [Xcode开发环境](#xcode)
+    - [插件(Plugins)](#plugins)
+    - [开发包管理(Package Manager)](#package-manager)
+    - [主题(Themes)](#themes)
 
-- [Swift](#swift)
-    - [Websites](#websites)
-    - [Videos](#videos)
-    - [UI](#ui-1)
+- [Swift语言](#swift)
+    - [网站(Websites)](#websites)
+    - [视频(Videos)](#videos)
+    - [界面(UI)](#ui-1)
 
-- [Style Guides](#style-guides)
-- [Good Websites](#good-websites)
-    - [News, Blogs and Feeds](#news-blogs-and-feeds)
+- [编码风格指南(Style Guides)](#style-guides)
+- [不错的网站(Good Websites)](#good-websites)
+    - [新闻博客和推送(News, Blogs and Feeds)](#news-blogs-and-feeds)
     - [UIKIt references](#uikit-references)
-    - [Components and Packages](#components-and-packages)
-    - [Forums and discuss lists](#forums-and-discuss-lists)
-    - [Tutorials and Keynotes](#tutorials-and-keynotes)
-    - [Prototyping](#prototyping)
+    - [组件和开发包(Components and Packages)](#components-and-packages)
+    - [论坛和讨论列表(Forums and discuss lists)](#forums-and-discuss-lists)
+    - [教程和主题讨论(Tutorials and Keynotes)](#tutorials-and-keynotes)
+    - [原型开发(Prototyping)](#prototyping)
 
 - [Twitter](#twitter)
 - [Books](#books)
 - [Other Awesome Lists](#other-awesome-lists)
-- [Contributing](#contributing)
+- [投稿(Contributing)](#contributing)
 
 # Getting Started
- * [Road Map iOS](https://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOS/) - Start Developing iOS Apps Today, Apple Guide
- * [Lifehacker](http://lifehacker.com/i-want-to-write-ios-apps-where-do-i-start-1644802175) - I Want to Write iOS Apps. Where Do I Start?
- * [Codeproject](http://www.codeproject.com/Articles/88929/Getting-Started-with-iPhone-and-iOS-Development) - Getting Started with iPhone and iOS Development
- * [Ray Wenderlich](http://www.raywenderlich.com/38557/learn-to-code-ios-apps-1-welcome-to-programming) - Learn to code iOS Apps
- * [Stanford - Developing Apps to iOS](https://itunes.apple.com/us/itunes-u/developing-apps-for-ios-hd/id395605774?mt=10) - Stanford's iTunes U App Development Course (Audio and Video)
- * [Stanford - Developing iOS 8 Apps with Swift](https://itunes.apple.com/us/course/developing-ios-8-apps-swift/id961180099) - Stanford's 2015 iTunes U App Development Course.
+ * [Road Map iOS](https://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOS/) - Apple出品的《开启iOS应用开发》
+ * [Lifehacker](http://lifehacker.com/i-want-to-write-ios-apps-where-do-i-start-1644802175) - 想写iOS应用，该从哪里着手?
+ * [Codeproject](http://www.codeproject.com/Articles/88929/Getting-Started-with-iPhone-and-iOS-Development) - iPhone/iOS开发指南.
+ * [Ray Wenderlich](http://www.raywenderlich.com/38557/learn-to-code-ios-apps-1-welcome-to-programming) - 学习开发iOS应用.
+ * [Stanford - Developing Apps to iOS](https://itunes.apple.com/us/itunes-u/developing-apps-for-ios-hd/id395605774?mt=10) - 斯坦福iOS应用开发课程(视频和音频)
+ * [Stanford - Developing iOS 8 Apps with Swift](https://itunes.apple.com/us/course/developing-ios-8-apps-swift/id961180099) - 斯坦福2015使用Swift开发iOS8应用课程.
 
 # Libraries And Frameworks
 
 ### Cache
- * [SDURLCache](https://github.com/steipete/SDURLCache) - URLCache subclass with on-disk cache support on iPhone/iPad.
+ * [SDURLCache](https://github.com/steipete/SDURLCache) - iPhone/iPad上URLCache盘上(on-disk)缓存机制的分支.
 
 ### Core Data
  * [CWCoreData](https://github.com/jayway/CWCoreData) - Additions and utilities to make it concurrency easier with the Core Data framework.
