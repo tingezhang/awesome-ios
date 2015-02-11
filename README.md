@@ -115,48 +115,48 @@ The list is divided into categories such as Frameworks, Components, Testing and 
  * [MapBox](https://github.com/mapbox/mapbox-ios-sdk) - Mapbox iOS SDK, 一个MapKit的开源替代库(Star 772).
 
 ### Networking
- * [AFNetworking](https://github.com/AFNetworking/AFNetworking) - A delightful iOS and OS X networking framework.
- * [RestKit](http://restkit.org/) - RestKit is an Objective-C framework for iOS that aims to make interacting with RESTful web services simple, fast and fun.
- * [FSNetworking](https://github.com/foursquare/FSNetworking) - Foursquare iOS networking library
- * [ASIHTTPRequest](https://github.com/pokeb/asi-http-request) - Easy to use CFNetwork wrapper for HTTP requests, Objective-C, Mac OS X and iPhone.
- * [Overcoat](https://github.com/gonzalezreal/Overcoat) - Overcoat is a small but powerful library that makes creating REST clients simple and fun.
+ * [AFNetworking](https://github.com/AFNetworking/AFNetworking) - 优雅的iOS/OS X网络框架(Star 15759).
+ * [RestKit](http://restkit.org/) - 为iOS编写的Objective-c框架，用于实现同REST风格web服务之间快速，简洁高效交互.
+ * [FSNetworking](https://github.com/foursquare/FSNetworking) - Foursquare iOS网络项目库(Star 377).
+ * [ASIHTTPRequest](https://github.com/pokeb/asi-http-request) - 基于objective-c，为HTTP请求提供的CFNetwork包装器(Star 5300).
+ * [Overcoat](https://github.com/gonzalezreal/Overcoat) - 一个小而强大的库，使创建REST客户简单而有趣(Star 524).
 
 ### Push
- * [Orbiter](https://github.com/mattt/Orbiter) - Push Notification Registration for iOS.
- * [PEM](https://github.com/KrauseFx/PEM) - Tired of manually creating and maintaining your push certification profiles?
+ * [Orbiter](https://github.com/mattt/Orbiter) - iOS推送通知注册器(Star 600).
+ * [PEM](https://github.com/KrauseFx/PEM) - 自动生成和更新推送通知配置(Star 339).
 
 ### Passbook
- * [passbook](https://github.com/frozon/passbook) - Passbook gem let's you create pkpass for passbook iOS 6+.
- * [Dubai](https://github.com/nomad/dubai) - Generate and Preview Passbook Passes.
+ * [passbook](https://github.com/frozon/passbook) - 用于为iOS 6+的Passbook生成pkpass(Star 149).
+ * [Dubai](https://github.com/nomad/dubai) - 产生和预览PassBook内容(Star 245).
 
 ### Text
- * [Twitter Text Obj](https://github.com/twitter/twitter-text-objc) - An Objective-C implementation of Twitter's text processing library.
- * [Nimbus](http://nimbuskit.info/) - Nimbus is a toolkit for experienced iOS software designers.
+ * [Twitter Text Obj](https://github.com/twitter/twitter-text-objc) - Twitter文本处理库的objective-c实现(Star 633).
+ * [Nimbus](http://nimbuskit.info/) - iOS软件设计老兵的工具库.
 
 ### UI
- * [ActionSheetPicker-3.0](https://github.com/skywinder/ActionSheetPicker-3.0/) - Quickly reproduce the dropdown UIPickerView / ActionSheet functionality on iOS.
- * [FlatUIKit](https://github.com/Grouper/FlatUIKit) - A collection of awesome flat UI components for iOS.
- * [JVFloatLabeledTextField](https://github.com/jverdi/JVFloatLabeledTextField) - UITextField subclass with floating labels.
- * [SSBouncyButton](https://github.com/StyleShare/SSBouncyButton) - iOS7-style bouncy button UI component.
- * [JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController) - An elegant messages UI library for iOS.
- * [TSMessages](https://github.com/toursprung/TSMessages) - Show notification views on top of screen such as success, error, warning or messages for iOS.
- * [NZAlertView](https://github.com/NZN/NZAlertView) - Simple and intuitive alert view. Similar to push notification effect.
- * [MGSwipeTableCell](https://github.com/MortimerGoro/MGSwipeTableCell) - UITableViewCell subclass that allows to display swippable buttons with a variety of transitions.
- * [ARAutocompleteTextView](https://github.com/alexruperez/ARAutocompleteTextView) - subclass of UITextView that automatically displays text suggestions in real-time. Perfect for email Textviews
- * [TGCameraViewController](https://github.com/tdginternet/TGCameraViewController) - Custom camera with AVFoundation. Beautiful, light and easy to integrate with iOS projects.
- * [BWWalkthrough](https://github.com/ariok/BWWalkthrough) - Class that helps you create Walkthroughs pages
- * [ENSwiftSideMenu] (https://github.com/evnaz/ENSwiftSideMenu) - A simple side menu for iOS 7/8 written in Swift.
- * [MDCSwipeToChoose] (https://github.com/modocache/MDCSwipeToChoose) - Swipe to "like" or "dislike" any view, just like Tinder.app. Build a flashcard app, a photo viewer, and more, in minutes, not hours!
- * [UIColor-Hex-Swift] (https://github.com/yeahdongcn/UIColor-Hex-Swift) - Convenience method for creating autoreleased color using RGBA hex string.
+ * [ActionSheetPicker-3.0](https://github.com/skywinder/ActionSheetPicker-3.0/) - 在iOS中快速创建下拉式UIPickerView/ActionSheet功能(Star 703).
+ * [FlatUIKit](https://github.com/Grouper/FlatUIKit) - 一组很棒的iOS平面UI组件集合(Star 5126).
+ * [JVFloatLabeledTextField](https://github.com/jverdi/JVFloatLabeledTextField) - 浮动标签扩展(Star 3619).
+ * [SSBouncyButton](https://github.com/StyleShare/SSBouncyButton) - iOS7风格的弹性按钮UI组件（Star 64).
+ * [JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController) - 一个优雅的iOS消息UI组件(Star 2605).
+ * [TSMessages](https://github.com/toursprung/TSMessages) - 在屏幕顶部显示提示信息视图，比如成功，失败，错误等(Star 2871).
+ * [NZAlertView](https://github.com/NZN/NZAlertView) - 简单而直观的警报视图。类似于推送通知的效果(Star 425).
+ * [MGSwipeTableCell](https://github.com/MortimerGoro/MGSwipeTableCell) - 一个易于使用的UITableViewCell子类，允许显示带有多种变化的拖拽按钮(Star 1068).
+ * [ARAutocompleteTextView](https://github.com/alexruperez/ARAutocompleteTextView) - UITextView子类，运行时自动显示文字提示信息，特别适用于邮件TextViews(Star 159）
+ * [TGCameraViewController](https://github.com/tdginternet/TGCameraViewController) - 基于AVFoundation的定制相机，美观，易于与iOS整合项目(Star 701).
+ * [BWWalkthrough](https://github.com/ariok/BWWalkthrough) - 用来帮助你的App制作使用Demo的项目库(Star 858).
+ * [ENSwiftSideMenu] (https://github.com/evnaz/ENSwiftSideMenu) - 一个Swift为iOS7/8编写简单的滑动菜单(Star 656).
+ * [MDCSwipeToChoose] (https://github.com/modocache/MDCSwipeToChoose) - 使用Swipe手势来表示喜欢或不喜欢任何视图(Star 1036)
+ * [UIColor-Hex-Swift] (https://github.com/yeahdongcn/UIColor-Hex-Swift) - 提供一种创建基于RGBA十六进制字符串的自动释放颜色的方便方法(Star 89).
 
 
 ### WebSocket
- * [Socket Rocket](https://github.com/square/SocketRocket) - A conforming Objective-C WebSocket client library.
+ * [Socket Rocket](https://github.com/square/SocketRocket) - 一个兼容Objective-C WebSocket的客户端项目库(Star 3382).
 
 ### Code Quality
- * [KZBootstrap](https://github.com/krzysztofzablocki/KZBootstrap) - Set of scripts and annotations that generate extra compile time errors and warnings on bad code quality.
- * [KZAsserts](https://github.com/krzysztofzablocki/KZAsserts) - Set of custom assertions that automatically generate NSError's, allow for both Assertions in Debug and Error handling in Release builds, with beatiful DSL.
- * [PSPDFUIKitMainThreadGuard](https://gist.github.com/steipete/5664345) - Simple snippet generating assertions when UIKit is used on background threads.
+ * [KZBootstrap](https://github.com/krzysztofzablocki/KZBootstrap) - iOS项目bootstrap，旨在引导高品质的编码(Star 1190).
+ * [KZAsserts](https://github.com/krzysztofzablocki/KZAsserts) - 自定义断言(Assertion)集, 能够自动产生NSError,支持debug模式的断言和Release编译下的错误处理(Star 66).
+ * [PSPDFUIKitMainThreadGuard](https://gist.github.com/steipete/5664345) - 当UIKit在后台线程使用的时候产生断言(Assertion)的简单参考代码段(Star 66).
  
 ### Analytics
  * [Flurry Analytics](http://www.flurry.com) - Free app Analytics API
