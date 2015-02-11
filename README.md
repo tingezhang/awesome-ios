@@ -198,25 +198,25 @@ The list is divided into categories such as Frameworks, Components, Testing and 
  * [Zucchini](http://www.zucchiniframework.org/) - 可视化iOS测试框架.
 
 ### Beta Distribution
- * [Crashlytics](https://www.crashlytics.com/) - A crash reporting and beta testing service.
- * [TestFlight Beta Testing](https://developer.apple.com/testflight/) - The beta testing service hosted on iTunes Connect (requires iOS 8 or later).
- * [HockeyApp](http://hockeyapp.net/) - With HockeyApp, you can distribute beta versions of your app, collect live crash reports, get feedback from users, and analyze test coverage.
+ * [Crashlytics](https://www.crashlytics.com/) - Crash报告和beta测试服务.
+ * [TestFlight Beta Testing](https://developer.apple.com/testflight/) - 托管在iTunes Connect中的beta测试服务(iOS 8或更新版本).
+ * [HockeyApp](http://hockeyapp.net/) - 使用HockeyApp, 可以帮助你分发beta版本应用程序，收集Crash报告，获取用户反馈，分析测试覆盖率.
 
 # Toolchains
- * [RubyMotion](http://www.rubymotion.com/) - RubyMotion is a revolutionary toolchain that lets you quickly develop and test native iOS and OS X applications for iPhone, iPad and Mac, all using the Ruby language.
+ * [RubyMotion](http://www.rubymotion.com/) - RubyMotion是一个革命性的工具链，采用Ruby语言，帮助你为iPhone，iPad和Mac快速开发和测试原生iOS和OS X应用程序.
 
 # Rapid Development
- * [KZPlayground](https://github.com/krzysztofzablocki/KZPlayground) - Playgrounds for Objective-C for extremely fast prototyping / learning.
- * [dyci](https://github.com/DyCI/dyci-main) - Code injection tool
+ * [KZPlayground](https://github.com/krzysztofzablocki/KZPlayground) - 基于Objective-c的快速原型开发和学习的试验田(Star 1411).
+ * [dyci](https://github.com/DyCI/dyci-main) - 代码注入工具(Star 644).
 
 # Deployment
- * [fastlane](http://fastlane.tools/) fastlane lets you define and run your deployment pipelines for different environments.
-   * [deliver](https://github.com/krausefx/deliver) Deploy screenshots, app metadata and app updates to the App Store using just one command
-   * [snapshot](https://github.com/krausefx/snapshot) Automatically create screenshots in all languages on all devices
+ * [fastlane](http://fastlane.tools/) 帮助你为不同环境定义和运作部署流水线(deployment pipelines).
+ * [deliver](https://github.com/krausefx/deliver) 一键支持部署截屏, 应用元数据(metadata)和应用更新到App Store(Star 1612).
+ * [snapshot](https://github.com/krausefx/snapshot) 自动创建所有语言，所有设备的应用截屏(Star 812).
 
 # SDK
- * [Spotify](https://github.com/spotify/ios-sdk) Spotify iOS SDK
- * [Facebook](https://github.com/facebook/facebook-ios-sdk) Facebook iOS SDK
+ * [Spotify](https://github.com/spotify/ios-sdk) Spotify iOS SDK(Star 328)
+ * [Facebook](https://github.com/facebook/facebook-ios-sdk) Facebook iOS SDK(Star 4670)
  * [Google Analytics](https://developers.google.com/analytics/devguides/collection/ios/v3/) Google Analytics SDK for iOS
  * [Paypal iOS SDK](https://github.com/paypal/PayPal-iOS-SDK) The PayPal Mobile SDKs enable native apps to easily accept PayPal and credit card payments.
  * [Pocket](https://github.com/Pocket/Pocket-ObjC-SDK) SDK for saving stuff to Pocket
