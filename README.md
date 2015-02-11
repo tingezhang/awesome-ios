@@ -9,7 +9,7 @@ The list is divided into categories such as Frameworks, Components, Testing and 
      - [缓存(Cache)](#cache)
      - [核心数据(Core Data)](#core-data)
      - [数据库(Database)](#database)
-     - [HUD](#hud)
+     - [透明指示器(HUD)](#hud)
      - [图像(Images)](#images)
      - [JSON](#json)
      - [日志(Logging)](#logging)
@@ -85,34 +85,34 @@ The list is divided into categories such as Frameworks, Components, Testing and 
  * [Realm](https://github.com/realm/realm-cocoa) - CoreData和SQLite的替代品，简单，新颖快速(Star 2955).
 
 ### HUD
- * [MBProgressHUD](https://github.com/jdg/MBProgressHUD) - Drop-in class for displays a translucent HUD with an indicator and/or labels while work is being done in a background thread.
- * [SVProgressHUD](https://github.com/TransitApp/SVProgressHUD) - A clean and lightweight progress HUD for your iOS app.
- * [ProgressHUD](https://github.com/relatedcode/ProgressHUD) - ProgressHUD is a lightweight and easy-to-use HUD.
+ * [MBProgressHUD](https://github.com/jdg/MBProgressHUD) - 一个嵌入式指示器，用于背景线程完成某项工作的时候，显示一个带有标签的透明提示(Star 6526).
+ * [SVProgressHUD](https://github.com/TransitApp/SVProgressHUD) - 为你的iOS应用打造的简洁轻量级进度指示器(Star 4653).
+ * [ProgressHUD](https://github.com/relatedcode/ProgressHUD) - 一个轻量级易用的指示器(Star 462).
 
 ### Images
- * [GPU Image](https://github.com/BradLarson/GPUImage) - An open source iOS framework for GPU-based image and video processing.
- * [UIImage DSP](https://github.com/gdawg/uiimage-dsp) - IOS UIImage processing functions using the vDSP/Accellerate framework for speed.
- * [QR Code Scanner](http://www.appcoda.com/qr-code-ios-programming-tutorial/) - QR Code implementation
- * [AsyncImageView](https://github.com/nicklockwood/AsyncImageView) - Simple extension of UIImageView for loading and displaying images asynchronously without lock up the UI.
- * [SDWebImage](https://github.com/rs/SDWebImage) - Asynchronous image downloader with cache support with an UIImageView category
+ * [GPU Image](https://github.com/BradLarson/GPUImage) - iOS开源的，基于GPU的图像和视频处理框架(Star 7937).
+ * [UIImage DSP](https://github.com/gdawg/uiimage-dsp) - 采用vDSP/Accellerate框架加速的iOS UIImge处理函数库(Star 344).
+ * [QR Code Scanner](http://www.appcoda.com/qr-code-ios-programming-tutorial/) - QR码工具库
+ * [AsyncImageView](https://github.com/nicklockwood/AsyncImageView) - 实现非锁定用户界面情况下，异步载入和显示图像的UIImageView扩展(Star 671).
+ * [SDWebImage](https://github.com/rs/SDWebImage) - 带缓存支持的异步图像下载器(Star 7702).
 
 ### JSON
- * [JSONKit](https://github.com/johnezang/JSONKit) - Objective-C JSON
- * [TouchJSON](https://github.com/TouchCode/TouchJSON) - A humane JSON Objective-C un-framework.
- * [JSON-Framework](https://github.com/stig/json-framework) -  This framework implements a strict JSON parser and generator in Objective-C.
- * [Mantle](https://github.com/Mantle/Mantle) - Model framework for Cocoa and Cocoa Touch.
- * [Groot](https://github.com/gonzalezreal/Groot) - Convert JSON dictionaries and arrays to and from Core Data managed objects.
- * [KZPropertyMapper](https://github.com/krzysztofzablocki/KZPropertyMapper) - Data mapping and validation with minimal amount of code.
- * [JSONModel](https://github.com/icanzilb/JSONModel) - Magical Data Modelling Framework for JSON. Create rapidly powerful, atomic and smart data model classes.
- * [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) - The better way to deal with JSON data in Swift.
+ * [JSONKit](https://github.com/johnezang/JSONKit) - Objective-C JSON(Star 4682).
+ * [TouchJSON](https://github.com/TouchCode/TouchJSON) - 基于Objective-c的JSON编码数据的解析和产生器(Star 797).
+ * [JSON-Framework](https://github.com/stig/json-framework) -  实现基于Objective-C的严格的JSON解析器和产生器(Star 3496).
+ * [Mantle](https://github.com/Mantle/Mantle) - Cocoa and Cocoa Touch的建模框架(Star 5571).
+ * [Groot](https://github.com/gonzalezreal/Groot) - 支持JSON自动数组和CoreData管理对象之间的相互转换的项目库(Star 246).
+ * [KZPropertyMapper](https://github.com/krzysztofzablocki/KZPropertyMapper) - 以最小代码量实现数据映射和校验的项目库(Star 910).
+ * [JSONModel](https://github.com/icanzilb/JSONModel) - 基于JSON的数据建模神奇框架，快速高效创建原子，智能数据模型类(Star 2798).
+ * [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) - 提供更好的方式来在Swift中处理JSON数据(Star 3296).
  
 ### Logging
- * [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack) - A fast & simple, yet powerful & flexible logging framework for Mac and iOS
- * [NSLogger](https://github.com/fpillet/NSLogger) - a high perfomance logging utility which displays traces emitted by client applications running on Mac OS X, iOS and Android.
+ * [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack) - 针对Mac和iOS提供一套简单快速，灵活有效的日志框架(Star 4420).
+ * [NSLogger](https://github.com/fpillet/NSLogger) - 提供一套高效率日志工具，能够显示运行在多种平台(Mac OS X, iOS和Android)上客户端应用产生的日志信息(Star 2528).
 
 ### Maps
- * [Route-me](https://github.com/route-me/route-me) - Open source map library for iOS.
- * [MapBox](https://github.com/mapbox/mapbox-ios-sdk) - Mapbox iOS SDK, an open source alternative to MapKit.
+ * [Route-me](https://github.com/route-me/route-me) - iOS开源地图库(Star 1142).
+ * [MapBox](https://github.com/mapbox/mapbox-ios-sdk) - Mapbox iOS SDK, 一个MapKit的开源替代库(Star 772).
 
 ### Networking
  * [AFNetworking](https://github.com/AFNetworking/AFNetworking) - A delightful iOS and OS X networking framework.
