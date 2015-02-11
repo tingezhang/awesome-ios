@@ -167,35 +167,35 @@ The list is divided into categories such as Frameworks, Components, Testing and 
  * [Braintree](https://www.braintreepayments.com) - 对前$50K的支付处理免费，需要后端支持.
 
 # Project setup
- * [crafter](https://github.com/krzysztofzablocki/crafter) - CLI that allows you to configure iOS project's template using custom DSL syntax, simple to use and quite powerful.
- * [liftoff](https://github.com/thoughtbot/liftoff) - Another CLI for creating iOS projects.
- * [KZBootstrap](https://github.com/krzysztofzablocki/KZBootstrap) - iOS project bootstrap aimed at high quality coding.
- * [amaro](https://github.com/crushlovely/Amaro) - iOS Boilerplate full of delights.
+ * [crafter](https://github.com/krzysztofzablocki/crafter) - 采用定制的DSL语法，帮助你来配置iOS项目模板的命令行工具(CLI)，快速简单高效(Star 291).
+ * [liftoff](https://github.com/thoughtbot/liftoff) - 又一个创建iOS项目的命令行工具(CLI)(Star 878).
+ * [KZBootstrap](https://github.com/krzysztofzablocki/KZBootstrap) - iOS项目bootstrap，用于引导高质量编码(Star 291).
+ * [amaro](https://github.com/crushlovely/Amaro) - 功能丰富的iOS样板代码(boilerplate cdoe)(Star 179).
 
 # Dependency Manager
 
- * [Cocoa Pods](http://cocoapods.org/) - CocoaPods is the dependency manager for Objective-C projects. It has thousands of libraries and can help you scale your projects elegantly.
- * [Xcode Maven](http://sap-production.github.io/xcode-maven-plugin/site/) - The Xcode Maven Plugin can be used in order to run Xcode builds embedded in a Maven lifecycle.
- * [Gradle](http://openbakery.org/gradle.php) - The gradle xcode plugin can be used to build iOS or Mac OS X Projects using gradle.
- * [Carthage](https://github.com/Carthage/Carthage) - A simple, decentralized dependency manager for Cocoa.
+ * [Cocoa Pods](http://cocoapods.org/) - 提供一个Objective-C项目的依赖管理器，包含了工具库，能够帮助你优雅的扩展自己的项目.
+ * [Xcode Maven](http://sap-production.github.io/xcode-maven-plugin/site/) - 一个Xcode Maven插件，用于帮助运行嵌套在Maven中的Xcode编译.
+ * [Gradle](http://openbakery.org/gradle.php) - 一个Gradle Xcode插件， 帮助使用Gradle来编译iOS或者Mac OS X项目.
+ * [Carthage](https://github.com/Carthage/Carthage) - 一个简单，分散化的Cocoa依赖管理器(Star 1890).
 
 # Testing
 
 ### TDD / BDD
- * [Kiwi](https://github.com/kiwi-bdd/Kiwi) - A behavior-driven development library for iOS development.
- * [Specta](https://github.com/specta/specta) - A light-weight TDD / BDD framework for Objective-C & Cocoa.
- * [Quick](https://github.com/Quick/Quick) - A behavior-driven development framework for Swift and Objective-C.
+ * [Kiwi](https://github.com/kiwi-bdd/Kiwi) - 为iOS开发行为驱动开发库(Star 2491).
+ * [Specta](https://github.com/specta/specta) - 面向Objective-c和Cocoa的一个轻量级测试驱动开发(TDD)/行为驱动开发(BDD)框架(Star 1049).
+ * [Quick](https://github.com/Quick/Quick) - 面向Swift和Objective-C的行为驱动开发(BDD)框架(Star 1974).
 
 ### UI Testing
- * [CrashMonkey](https://github.com/mokemokechicken/CrashMonkey) - Monkey Test Tool For iOS.
- * [appium](http://appium.io/) - Appium is an open source test automation framework for use with native and hybrid mobile apps.
- * [robotframework-appiumlibrary](https://github.com/jollychang/robotframework-appiumlibrary) - AppiumLibrary is an appium testing library for RobotFramework.
- * [Cucumber](http://cukes.info/) - Behavior driver development for iOS.
- * [Kif](https://github.com/kif-framework/KIF) - An iOS Functional Testing Framework.
- * [Subliminal](https://github.com/inkling/Subliminal) - An understated approach to iOS integration testing.
- * [UIAutomation](https://developer.apple.com/library/ios/documentation/DeveloperTools/Reference/UIAutomationRef/Introduction/Introduction.html) - JavaScript library to write test scripts that exercise your app’s user interface elements while the app runs on a connected device.
- * [ios-driver](http://ios-driver.github.io/ios-driver/index.html) - Test any IOS native, hybrid, or mobile web application using Selenium / WebDriver.
- * [Zucchini](http://www.zucchiniframework.org/) - A visual iOS testing framework that loves your apps.
+ * [CrashMonkey](https://github.com/mokemokechicken/CrashMonkey) - iOS Monkey Test工具(Star 40).
+ * [appium](http://appium.io/) - 一个开源的自动化测试框架，用于本机和混合移动应用程序.
+ * [robotframework-appiumlibrary](https://github.com/jollychang/robotframework-appiumlibrary) - 基于appium的RobotFramework测试库(Star 24).
+ * [Cucumber](http://cukes.info/) - iOS行为驱动开发库.
+ * [Kif](https://github.com/kif-framework/KIF) - 一个iOS功能测试框架(Star 3008).
+ * [Subliminal](https://github.com/inkling/Subliminal) - iOS集成测试方案(Star 732).
+ * [UIAutomation](https://developer.apple.com/library/ios/documentation/DeveloperTools/Reference/UIAutomationRef/Introduction/Introduction.html) - 提供一个JavaScript库，当App运行于链接设备上的时候，可以用它来编写测试脚本去测试App用户接口元素.
+ * [ios-driver](http://ios-driver.github.io/ios-driver/index.html) - 基于Selenium/WebDriver， 用于测试任何iOS原生,混合或者移动Web应用的框架.
+ * [Zucchini](http://www.zucchiniframework.org/) - 可视化iOS测试框架.
 
 ### Beta Distribution
  * [Crashlytics](https://www.crashlytics.com/) - A crash reporting and beta testing service.
