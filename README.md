@@ -156,15 +156,15 @@ The list is divided into categories such as Frameworks, Components, Testing and 
 ### Code Quality
  * [KZBootstrap](https://github.com/krzysztofzablocki/KZBootstrap) - iOS项目bootstrap，旨在引导高品质的编码(Star 1190).
  * [KZAsserts](https://github.com/krzysztofzablocki/KZAsserts) - 自定义断言(Assertion)集, 能够自动产生NSError,支持debug模式的断言和Release编译下的错误处理(Star 66).
- * [PSPDFUIKitMainThreadGuard](https://gist.github.com/steipete/5664345) - 当UIKit在后台线程使用的时候产生断言(Assertion)的简单参考代码段(Star 66).
+ * [PSPDFUIKitMainThreadGuard](https://gist.github.com/steipete/5664345) - 当UIKit在后台线程使用的时候产生断言(Assertion)的简单参考代码片段(Star 66).
  
 ### Analytics
- * [Flurry Analytics](http://www.flurry.com) - Free app Analytics API
- * [Parse Analytics](https://parse.com/products/analytics) - Measure App Usage, track bugs and much more
+ * [Flurry Analytics](http://www.flurry.com) - 免费APP分析API.
+ * [Parse Analytics](https://parse.com/products/analytics) - 测量应用程序使用，跟踪bug等.
  
 ### Payments
- * [Stripe](https://stripe.com) - Payment integration on your app with PAY. Suitable for people with low knowlege on Backend.
- * [Braintree](https://www.braintreepayments.com) - Free payment processing on your first $50k. Requires Backend.
+ * [Stripe](https://stripe.com) - 在应用程序中集成支付功能，适合于对后端了解有限的用户群.
+ * [Braintree](https://www.braintreepayments.com) - 对前$50K的支付处理免费，需要后端支持.
 
 # Project setup
  * [crafter](https://github.com/krzysztofzablocki/crafter) - CLI that allows you to configure iOS project's template using custom DSL syntax, simple to use and quite powerful.
