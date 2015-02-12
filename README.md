@@ -52,8 +52,8 @@
     - [原型设计(Prototyping)](#prototyping)
 
 - [Twitter](#twitter)
-- [Books](#books)
-- [其他很棒资源列表](#other-awesome-lists)
+- [书籍](#books)
+- [其他很棒的资源列表](#other-awesome-lists)
 - [增补投稿(Contributing)](#contributing)
 
 # Getting Started
@@ -96,7 +96,7 @@
 
 ### JSON
  * [JSONKit](https://github.com/johnezang/JSONKit) - Objective-C JSON(Star 4682).
- * [TouchJSON](https://github.com/TouchCode/TouchJSON) - Objective-c的JSON编码数据解析和产生器(Star 797).
+ * [TouchJSON](https://github.com/TouchCode/TouchJSON) - Objective-C的JSON编码数据解析和产生器(Star 797).
  * [JSON-Framework](https://github.com/stig/json-framework) -  Objective-C实现的，严格遵守规范的JSON解析器和产生器(Star 3496).
  * [Mantle](https://github.com/Mantle/Mantle) - Cocoa and Cocoa Touch的建模框架(Star 5571).
  * [Groot](https://github.com/gonzalezreal/Groot) - 支持JSON字典数组和CoreData管理对象之间的相互转换的项目库(Star 246).
@@ -114,9 +114,9 @@
 
 ### Networking
  * [AFNetworking](https://github.com/AFNetworking/AFNetworking) - 优雅的iOS/OS X网络框架(Star 15759).
- * [RestKit](http://restkit.org/) - 为iOS编写的Objective-c框架，用于实现同REST风格web服务之间快速，简洁高效的交互.
+ * [RestKit](http://restkit.org/) - 为iOS编写的Objective-C框架，用于实现同REST风格Web服务之间快速，简洁,高效的交互.
  * [FSNetworking](https://github.com/foursquare/FSNetworking) - Foursquare iOS网络项目库(Star 377).
- * [ASIHTTPRequest](https://github.com/pokeb/asi-http-request) - 基于objective-c，为HTTP请求提供的CFNetwork包装器(Star 5300).
+ * [ASIHTTPRequest](https://github.com/pokeb/asi-http-request) - 基于Objective-C，为HTTP请求提供的CFNetwork包装器(Star 5300).
  * [Overcoat](https://github.com/gonzalezreal/Overcoat) - 一个小而强大的库，使创建REST客户简单而有趣(Star 524).
 
 ### Push
@@ -128,7 +128,7 @@
  * [Dubai](https://github.com/nomad/dubai) - 产生和预览PassBook内容(Star 245).
 
 ### Text
- * [Twitter Text Obj](https://github.com/twitter/twitter-text-objc) - Twitter文本处理库的objective-c实现(Star 633).
+ * [Twitter Text Obj](https://github.com/twitter/twitter-text-objc) - Twitter文本处理库的objective-C实现(Star 633).
  * [Nimbus](http://nimbuskit.info/) - iOS软件设计老兵的工具库.
 
 ### UI
@@ -181,7 +181,7 @@
 
 ### TDD / BDD
  * [Kiwi](https://github.com/kiwi-bdd/Kiwi) - 为iOS行为驱动开发(BDD)库(Star 2491).
- * [Specta](https://github.com/specta/specta) - 面向Objective-c和Cocoa的一个轻量级测试驱动开发(TDD)/行为驱动开发(BDD)框架(Star 1049).
+ * [Specta](https://github.com/specta/specta) - 面向Objective-C和Cocoa的一个轻量级测试驱动开发(TDD)/行为驱动开发(BDD)框架(Star 1049).
  * [Quick](https://github.com/Quick/Quick) - 面向Swift和Objective-C的行为驱动开发(BDD)框架(Star 1974).
 
 ### UI Testing
@@ -204,7 +204,7 @@
  * [RubyMotion](http://www.rubymotion.com/) - RubyMotion是一个革命性的工具链，采用Ruby语言，帮助你在iPhone，iPad和Mac上快速开发和测试原生iOS和OS X应用程序.
 
 # Rapid Development
- * [KZPlayground](https://github.com/krzysztofzablocki/KZPlayground) - 基于Objective-c的快速原型开发和学习试验田(Star 1411).
+ * [KZPlayground](https://github.com/krzysztofzablocki/KZPlayground) - 基于Objective-C的快速原型开发和学习试验田(Star 1411).
  * [dyci](https://github.com/DyCI/dyci-main) - 代码注入工具(Star 644).
 
 # Deployment
@@ -215,11 +215,11 @@
 # SDK
  * [Spotify](https://github.com/spotify/ios-sdk) Spotify iOS开发包(Star 328)
  * [Facebook](https://github.com/facebook/facebook-ios-sdk) Facebook iOS开发包(Star 4670)
- * [Google Analytics](https://developers.google.com/analytics/devguides/collection/ios/v3/) 谷歌分析IOS开发包
+ * [Google Analytics](https://developers.google.com/analytics/devguides/collection/ios/v3/) 谷歌分析iOS开发包
  * [Paypal iOS SDK](https://github.com/paypal/PayPal-iOS-SDK) 贝宝移动开发包，帮助原生应用轻松支持贝宝和信用卡支付功能(Star 365).
  * [Pocket](https://github.com/Pocket/Pocket-ObjC-SDK) 保存信息到Pocket的开发包(Star 153)
  * [Tumblr](https://github.com/tumblr/TMTumblrSDK) 方便集成Tumblr数据到iOS或者OS X应用的开发包(Star 246).
- * [Evernote](https://github.com/evernote/evernote-sdk-ios) Evernote IOS开发包(Star 381)
+ * [Evernote](https://github.com/evernote/evernote-sdk-ios) Evernote iOS开发包(Star 381)
  * [Box](https://github.com/box/box-ios-sdk-v2) 支持Box API的iOS和OS X开发包(Star 123)
  * [OneDrive](https://github.com/liveservices/LiveSDK-for-iOS) Live iOS开发包(Star 129)
  * [Stripe](https://github.com/stripe/stripe-ios) Stripe iOS和OS X绑定库(Star 331) 
@@ -338,7 +338,7 @@
    * [@Wolg](https://github.com/Wolg/awesome-swift) - 很棒的Swift框架，库和软件的列表(Star 485).
 
 # Contributing
-[See the guide](https://github.com/vsouza/awesome-ios/blob/master/CONTRIBUTING.md)
+[请看说明](https://github.com/vsouza/awesome-ios/blob/master/CONTRIBUTING.md)
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/vsouza/awesome-ios/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
