@@ -1,7 +1,5 @@
 # Awesome iOS
-
-A curated list of awesome iOS frameworks, libraries, tutorials, plugins Xcode, components and much more. 
-The list is divided into categories such as Frameworks, Components, Testing and others,  open source projects, free and paid services. There is no pre-established order of items in each category, the order is for contribution. If you want to contribute, please read the [guide](https://github.com/vsouza/awesome-ios/blob/master/CONTRIBUTING.md).
+一个很棒的iOS框架，功能库，教程，Xcode插件，组件列表。分成多个类别，比如框架，组件，测试，开源项目，免费和收费服务。每个分类中没有预先定义的顺序，当前是增补顺序。如果你想增补，请阅读[guide](https://github.com/vsouza/awesome-ios/blob/master/CONTRIBUTING.md).
 
 ### Contents
  - [入门指南(Getting Started)](#getting-started)
