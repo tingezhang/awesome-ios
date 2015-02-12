@@ -13,10 +13,10 @@
      - [日志(Logging)](#logging)
      - [地图(Maps)](#maps)
      - [网络(Networking)](#networking)
-     - [Push](#push)
+     - [推送(Push)](#push)
      - [Passbook](#passbook)
-     - [Text](#text)
-     - [UI](#ui)
+     - [文本(Text)](#text)
+     - [用户界面(UI)](#ui)
      - [Websocket](#websocket)
      - [代码质量(Code Quality)](#code-quality)
      - [分析(Analytics)](#analytics)
@@ -25,13 +25,13 @@
 - [项目搭建(Project setup)](#project-setup)
 - [依赖管理(Dependency Manager)](#dependency-manager)
 - [测试(Testing)](#testing)
-    - [测试驱动开发(TDD) / 行为驱动开发(BDD)](#tdd--bdd)
+    - [测试驱动开发(TDD)/行为驱动开发(BDD)](#tdd--bdd)
     - [界面测试(UI Testing)](#ui-testing)
     - [beta版本发布(Beta Distribution)](#beta-distribution)
 - [工具链(Toolchains)](#toolchains)
 - [快速开发(Rapid Development)](#rapid-development)
 - [部署(Deployment)](#deployment)
-- [SDK](#sdk)
+- [开发包(SDK)](#sdk)
 - [Xcode开发环境](#xcode)
     - [插件(Plugins)](#plugins)
     - [开发包管理(Package Manager)](#package-manager)
@@ -45,16 +45,16 @@
 - [编码风格指南(Style Guides)](#style-guides)
 - [不错的网站(Good Websites)](#good-websites)
     - [新闻博客和推送(News, Blogs and Feeds)](#news-blogs-and-feeds)
-    - [UIKIt references](#uikit-references)
-    - [组件和开发包(Components and Packages)](#components-and-packages)
+    - [UI包参考(UIKIt references)](#uikit-references)
+    - [组件和功能包(Components and Packages)](#components-and-packages)
     - [论坛和讨论列表(Forums and discuss lists)](#forums-and-discuss-lists)
     - [教程和主题讨论(Tutorials and Keynotes)](#tutorials-and-keynotes)
-    - [原型开发(Prototyping)](#prototyping)
+    - [原型设计(Prototyping)](#prototyping)
 
 - [Twitter](#twitter)
 - [Books](#books)
-- [Other Awesome Lists](#other-awesome-lists)
-- [投稿(Contributing)](#contributing)
+- [其他很棒资源列表](#other-awesome-lists)
+- [增补投稿(Contributing)](#contributing)
 
 # Getting Started
  * [Road Map iOS](https://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOS/) - Apple出品的《开启iOS应用开发》
@@ -67,17 +67,17 @@
 # Libraries And Frameworks
 
 ### Cache
- * [SDURLCache](https://github.com/steipete/SDURLCache) - iPhone/iPad上URLCache盘上(on-disk)缓存机制的分支(Star 518).
+ * [SDURLCache](https://github.com/steipete/SDURLCache) - 带有盘上(on-disk)缓存功能的URLCache子类，支持iPhone和iPad(Star 518).
 
 ### Core Data
  * [CWCoreData](https://github.com/jayway/CWCoreData) - 工具附件集合，用来简化核心数据(CoreData)框架的并发处理(Star 70).
- * [Objective-Record](https://github.com/mneorr/Objective-Record) - 以轻量级活动记录(ActiveRecord)方式管理核心数据对象(Star 1011).
- * [Magical Record](https://github.com/magicalpanda/MagicalRecord) -  获取CoreData超级棒的项目库(Star 6224).
- * [SSDataKit](https://github.com/soffes/SSDataKit) - 帮助消除CoreData例行代码(boilerplate code)的项目库(Star 424).
- * [ios-queryable](https://github.com/martydill/ios-queryable) - 提供CoreData的IQueryable/IEnumerable接口实现(Star 219)
- * [ReactiveCoreData](https://github.com/apparentsoft/ReactiveCoreData) - 尝试将CoreData带入ReactiveCocoa领域的项目库(Star 225).
- * [Ensembles](https://github.com/drewmccormack/ensembles) - CoreData同步框架(Star 1117).
- * [Mogenerator](https://github.com/rentzsch/mogenerator) - 自动化CoreData代码产生器项目库(Star 2289).
+ * [Objective-Record](https://github.com/mneorr/Objective-Record) - 以轻量级活动记录(ActiveRecord)方式管理核心数据对象的库(Star 1011).
+ * [Magical Record](https://github.com/magicalpanda/MagicalRecord) -  简化核心数据(CoreData)抓取的项目库(Star 6224).
+ * [SSDataKit](https://github.com/soffes/SSDataKit) - 帮助消除核心数据(CoreData)例行样板代码(boilerplate code)的项目库(Star 424).
+ * [ios-queryable](https://github.com/martydill/ios-queryable) - 提供核心数据(CoreData)IQueryable/IEnumerable的接口实现(Star 219)
+ * [ReactiveCoreData](https://github.com/apparentsoft/ReactiveCoreData) - 尝试将核心数据(CoreData)带入ReactiveCocoa领域的项目库(Star 225).
+ * [Ensembles](https://github.com/drewmccormack/ensembles) - 核心数据(CoreData)同步框架(Star 1117).
+ * [Mogenerator](https://github.com/rentzsch/mogenerator) - 自动化核心数据(CoreData)代码产生器(Star 2289).
 
 ### Database
  * [Realm](https://github.com/realm/realm-cocoa) - CoreData和SQLite的替代品，简单，新颖快速(Star 2955).
@@ -88,20 +88,20 @@
  * [ProgressHUD](https://github.com/relatedcode/ProgressHUD) - 一个轻量级易用的指示器(Star 462).
 
 ### Images
- * [GPU Image](https://github.com/BradLarson/GPUImage) - iOS开源的，基于GPU的图像和视频处理框架(Star 7937).
+ * [GPU Image](https://github.com/BradLarson/GPUImage) - iOS上，开源的，基于GPU的图像和视频处理框架(Star 7937).
  * [UIImage DSP](https://github.com/gdawg/uiimage-dsp) - 采用vDSP/Accellerate框架加速的iOS UIImge处理函数库(Star 344).
  * [QR Code Scanner](http://www.appcoda.com/qr-code-ios-programming-tutorial/) - QR码工具库
- * [AsyncImageView](https://github.com/nicklockwood/AsyncImageView) - 实现非锁定用户界面情况下，异步载入和显示图像的UIImageView扩展(Star 671).
- * [SDWebImage](https://github.com/rs/SDWebImage) - 带缓存支持的异步图像下载器(Star 7702).
+ * [AsyncImageView](https://github.com/nicklockwood/AsyncImageView) - 在没有锁定用户界面情况下，实现异步载入和图像显示的UIImageView扩展库(Star 671).
+ * [SDWebImage](https://github.com/rs/SDWebImage) - 带缓存功能的异步图像下载器(Star 7702).
 
 ### JSON
  * [JSONKit](https://github.com/johnezang/JSONKit) - Objective-C JSON(Star 4682).
- * [TouchJSON](https://github.com/TouchCode/TouchJSON) - 基于Objective-c的JSON编码数据的解析和产生器(Star 797).
- * [JSON-Framework](https://github.com/stig/json-framework) -  实现基于Objective-C的严格的JSON解析器和产生器(Star 3496).
+ * [TouchJSON](https://github.com/TouchCode/TouchJSON) - Objective-c的JSON编码数据解析和产生器(Star 797).
+ * [JSON-Framework](https://github.com/stig/json-framework) -  Objective-C实现的，严格遵守规范的JSON解析器和产生器(Star 3496).
  * [Mantle](https://github.com/Mantle/Mantle) - Cocoa and Cocoa Touch的建模框架(Star 5571).
- * [Groot](https://github.com/gonzalezreal/Groot) - 支持JSON自动数组和CoreData管理对象之间的相互转换的项目库(Star 246).
+ * [Groot](https://github.com/gonzalezreal/Groot) - 支持JSON字典数组和CoreData管理对象之间的相互转换的项目库(Star 246).
  * [KZPropertyMapper](https://github.com/krzysztofzablocki/KZPropertyMapper) - 以最小代码量实现数据映射和校验的项目库(Star 910).
- * [JSONModel](https://github.com/icanzilb/JSONModel) - 基于JSON的数据建模神奇框架，快速高效创建原子，智能数据模型类(Star 2798).
+ * [JSONModel](https://github.com/icanzilb/JSONModel) - 基于JSON的数据建模框架，快速高效创建原子，智能数据模型类(Star 2798).
  * [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) - 提供更好的方式来在Swift中处理JSON数据(Star 3296).
  
 ### Logging
@@ -110,18 +110,18 @@
 
 ### Maps
  * [Route-me](https://github.com/route-me/route-me) - iOS开源地图库(Star 1142).
- * [MapBox](https://github.com/mapbox/mapbox-ios-sdk) - Mapbox iOS SDK, 一个MapKit的开源替代库(Star 772).
+ * [MapBox](https://github.com/mapbox/mapbox-ios-sdk) - Mapbox iOS开发包, 一个MapKit的开源替代库(Star 772).
 
 ### Networking
  * [AFNetworking](https://github.com/AFNetworking/AFNetworking) - 优雅的iOS/OS X网络框架(Star 15759).
- * [RestKit](http://restkit.org/) - 为iOS编写的Objective-c框架，用于实现同REST风格web服务之间快速，简洁高效交互.
+ * [RestKit](http://restkit.org/) - 为iOS编写的Objective-c框架，用于实现同REST风格web服务之间快速，简洁高效的交互.
  * [FSNetworking](https://github.com/foursquare/FSNetworking) - Foursquare iOS网络项目库(Star 377).
  * [ASIHTTPRequest](https://github.com/pokeb/asi-http-request) - 基于objective-c，为HTTP请求提供的CFNetwork包装器(Star 5300).
  * [Overcoat](https://github.com/gonzalezreal/Overcoat) - 一个小而强大的库，使创建REST客户简单而有趣(Star 524).
 
 ### Push
  * [Orbiter](https://github.com/mattt/Orbiter) - iOS推送通知注册器(Star 600).
- * [PEM](https://github.com/KrauseFx/PEM) - 自动生成和更新推送通知配置(Star 339).
+ * [PEM](https://github.com/KrauseFx/PEM) - 自动生成和更新推送通知配置信息(Star 339).
 
 ### Passbook
  * [passbook](https://github.com/frozon/passbook) - 用于为iOS 6+的Passbook生成pkpass(Star 149).
@@ -133,19 +133,19 @@
 
 ### UI
  * [ActionSheetPicker-3.0](https://github.com/skywinder/ActionSheetPicker-3.0/) - 在iOS中快速创建下拉式UIPickerView/ActionSheet功能(Star 703).
- * [FlatUIKit](https://github.com/Grouper/FlatUIKit) - 一组很棒的iOS平面UI组件集合(Star 5126).
- * [JVFloatLabeledTextField](https://github.com/jverdi/JVFloatLabeledTextField) - 浮动标签扩展(Star 3619).
- * [SSBouncyButton](https://github.com/StyleShare/SSBouncyButton) - iOS7风格的弹性按钮UI组件（Star 64).
+ * [FlatUIKit](https://github.com/Grouper/FlatUIKit) - 一组很棒的iOS扁平UI组件集合(Star 5126).
+ * [JVFloatLabeledTextField](https://github.com/jverdi/JVFloatLabeledTextField) - 浮动标签扩展库(Star 3619).
+ * [SSBouncyButton](https://github.com/StyleShare/SSBouncyButton) - iOS7风格的弹性按钮UI组件库（Star 64).
  * [JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController) - 一个优雅的iOS消息UI组件(Star 2605).
  * [TSMessages](https://github.com/toursprung/TSMessages) - 在屏幕顶部显示提示信息视图，比如成功，失败，错误等(Star 2871).
- * [NZAlertView](https://github.com/NZN/NZAlertView) - 简单而直观的警报视图。类似于推送通知的效果(Star 425).
+ * [NZAlertView](https://github.com/NZN/NZAlertView) - 简单而直观的报警视图。类似于通知推送的效果(Star 425).
  * [MGSwipeTableCell](https://github.com/MortimerGoro/MGSwipeTableCell) - 一个易于使用的UITableViewCell子类，允许显示带有多种变化的拖拽按钮(Star 1068).
  * [ARAutocompleteTextView](https://github.com/alexruperez/ARAutocompleteTextView) - UITextView子类，运行时自动显示文字提示信息，特别适用于邮件TextViews(Star 159）
  * [TGCameraViewController](https://github.com/tdginternet/TGCameraViewController) - 基于AVFoundation的定制相机，美观，易于与iOS整合项目(Star 701).
- * [BWWalkthrough](https://github.com/ariok/BWWalkthrough) - 用来帮助你的App制作使用Demo的项目库(Star 858).
+ * [BWWalkthrough](https://github.com/ariok/BWWalkthrough) - 用来帮助你的App制作Demo的项目库(Star 858).
  * [ENSwiftSideMenu] (https://github.com/evnaz/ENSwiftSideMenu) - 一个Swift为iOS7/8编写简单的滑动菜单(Star 656).
- * [MDCSwipeToChoose] (https://github.com/modocache/MDCSwipeToChoose) - 使用Swipe手势来表示喜欢或不喜欢任何视图(Star 1036)
- * [UIColor-Hex-Swift] (https://github.com/yeahdongcn/UIColor-Hex-Swift) - 提供一种创建基于RGBA十六进制字符串的自动释放颜色的方便方法(Star 89).
+ * [MDCSwipeToChoose] (https://github.com/modocache/MDCSwipeToChoose) - 使用Swipe手势来表示喜欢或不喜欢某视图(Star 1036)
+ * [UIColor-Hex-Swift] (https://github.com/yeahdongcn/UIColor-Hex-Swift) - 建立在RGBA十六进制字符串的基础上，提供一种自动释放颜色的简便方法(Star 89).
 
 
 ### WebSocket
@@ -154,11 +154,11 @@
 ### Code Quality
  * [KZBootstrap](https://github.com/krzysztofzablocki/KZBootstrap) - iOS项目bootstrap，旨在引导高品质的编码(Star 1190).
  * [KZAsserts](https://github.com/krzysztofzablocki/KZAsserts) - 自定义断言(Assertion)集, 能够自动产生NSError,支持debug模式的断言和Release编译下的错误处理(Star 66).
- * [PSPDFUIKitMainThreadGuard](https://gist.github.com/steipete/5664345) - 当UIKit在后台线程使用的时候产生断言(Assertion)的简单参考代码片段(Star 66).
+ * [PSPDFUIKitMainThreadGuard](https://gist.github.com/steipete/5664345) - 当UIKit在后台线程使用的时候，如何产生断言(Assertion)的代码参考片段(Star 66).
  
 ### Analytics
- * [Flurry Analytics](http://www.flurry.com) - 免费APP分析API.
- * [Parse Analytics](https://parse.com/products/analytics) - 测量应用程序使用，跟踪bug等.
+ * [Flurry Analytics](http://www.flurry.com) - 免费应用分析API.
+ * [Parse Analytics](https://parse.com/products/analytics) - 测量应用程序使用情况，跟踪bug等.
  
 ### Payments
  * [Stripe](https://stripe.com) - 在应用程序中集成支付功能，适合于对后端了解有限的用户群.
@@ -173,25 +173,25 @@
 # Dependency Manager
 
  * [Cocoa Pods](http://cocoapods.org/) - 提供一个Objective-C项目的依赖管理器，包含了工具库，能够帮助你优雅的扩展自己的项目.
- * [Xcode Maven](http://sap-production.github.io/xcode-maven-plugin/site/) - 一个Xcode Maven插件，用于帮助运行嵌套在Maven中的Xcode编译.
- * [Gradle](http://openbakery.org/gradle.php) - 一个Gradle Xcode插件， 帮助使用Gradle来编译iOS或者Mac OS X项目.
+ * [Xcode Maven](http://sap-production.github.io/xcode-maven-plugin/site/) - 一个Xcode Maven插件，用于帮助执行包含在Maven中的Xcode编译.
+ * [Gradle](http://openbakery.org/gradle.php) - 一个Gradle Xcode插件，支持使用Gradle来编译iOS或者Mac OS X项目.
  * [Carthage](https://github.com/Carthage/Carthage) - 一个简单，分散化的Cocoa依赖管理器(Star 1890).
 
 # Testing
 
 ### TDD / BDD
- * [Kiwi](https://github.com/kiwi-bdd/Kiwi) - 为iOS开发行为驱动开发库(Star 2491).
+ * [Kiwi](https://github.com/kiwi-bdd/Kiwi) - 为iOS行为驱动开发(BDD)库(Star 2491).
  * [Specta](https://github.com/specta/specta) - 面向Objective-c和Cocoa的一个轻量级测试驱动开发(TDD)/行为驱动开发(BDD)框架(Star 1049).
  * [Quick](https://github.com/Quick/Quick) - 面向Swift和Objective-C的行为驱动开发(BDD)框架(Star 1974).
 
 ### UI Testing
  * [CrashMonkey](https://github.com/mokemokechicken/CrashMonkey) - iOS Monkey Test工具(Star 40).
- * [appium](http://appium.io/) - 一个开源的自动化测试框架，用于本机和混合移动应用程序.
+ * [appium](http://appium.io/) - 一个开源的自动化测试框架，支持本机和混合移动应用程序.
  * [robotframework-appiumlibrary](https://github.com/jollychang/robotframework-appiumlibrary) - 基于appium的RobotFramework测试库(Star 24).
- * [Cucumber](http://cukes.info/) - iOS行为驱动开发库.
+ * [Cucumber](http://cukes.info/) - iOS行为驱动开发(BDD).
  * [Kif](https://github.com/kif-framework/KIF) - 一个iOS功能测试框架(Star 3008).
  * [Subliminal](https://github.com/inkling/Subliminal) - iOS集成测试方案(Star 732).
- * [UIAutomation](https://developer.apple.com/library/ios/documentation/DeveloperTools/Reference/UIAutomationRef/Introduction/Introduction.html) - 提供一个JavaScript库，当App运行于链接设备上的时候，可以用它来编写测试脚本去测试App用户接口元素.
+ * [UIAutomation](https://developer.apple.com/library/ios/documentation/DeveloperTools/Reference/UIAutomationRef/Introduction/Introduction.html) - 提供一个JavaScript库，当App运行于连接设备上的时候，可以用它来编写测试脚本去测试App用户接口元素.
  * [ios-driver](http://ios-driver.github.io/ios-driver/index.html) - 基于Selenium/WebDriver， 用于测试任何iOS原生,混合或者移动Web应用的框架.
  * [Zucchini](http://www.zucchiniframework.org/) - 可视化iOS测试框架.
 
@@ -201,16 +201,16 @@
  * [HockeyApp](http://hockeyapp.net/) - 使用HockeyApp, 可以帮助你分发beta版本应用程序，收集Crash报告，获取用户反馈，分析测试覆盖率.
 
 # Toolchains
- * [RubyMotion](http://www.rubymotion.com/) - RubyMotion是一个革命性的工具链，采用Ruby语言，帮助你为iPhone，iPad和Mac快速开发和测试原生iOS和OS X应用程序.
+ * [RubyMotion](http://www.rubymotion.com/) - RubyMotion是一个革命性的工具链，采用Ruby语言，帮助你在iPhone，iPad和Mac上快速开发和测试原生iOS和OS X应用程序.
 
 # Rapid Development
- * [KZPlayground](https://github.com/krzysztofzablocki/KZPlayground) - 基于Objective-c的快速原型开发和学习的试验田(Star 1411).
+ * [KZPlayground](https://github.com/krzysztofzablocki/KZPlayground) - 基于Objective-c的快速原型开发和学习试验田(Star 1411).
  * [dyci](https://github.com/DyCI/dyci-main) - 代码注入工具(Star 644).
 
 # Deployment
  * [fastlane](http://fastlane.tools/) 帮助你为不同环境定义和运作部署流水线(deployment pipelines).
- * [deliver](https://github.com/krausefx/deliver) 一键支持部署截屏, 应用元数据(metadata)和应用更新到App Store(Star 1612).
- * [snapshot](https://github.com/krausefx/snapshot) 自动创建所有语言，所有设备的应用截屏(Star 812).
+ * [deliver](https://github.com/krausefx/deliver) 一键搞定部署截屏信息, 应用元数据(metadata)和应用更新到App Store(Star 1612).
+ * [snapshot](https://github.com/krausefx/snapshot) 自动创建所有用户语言和所有设备的应用截屏(Star 812).
 
 # SDK
  * [Spotify](https://github.com/spotify/ios-sdk) Spotify iOS开发包(Star 328)
@@ -223,7 +223,7 @@
  * [Box](https://github.com/box/box-ios-sdk-v2) 支持Box API的iOS和OS X开发包(Star 123)
  * [OneDrive](https://github.com/liveservices/LiveSDK-for-iOS) Live iOS开发包(Star 129)
  * [Stripe](https://github.com/stripe/stripe-ios) Stripe iOS和OS X绑定库(Star 331) 
- * [Venmo](https://github.com/venmo/venmo-ios-sdk) 通过Venmo,为iOS应用提供建立和接受支付的能力(Star 54)
+ * [Venmo](https://github.com/venmo/venmo-ios-sdk) 通过Venmo,为iOS应用添加发起和接受支付的能力(Star 54)
  * [AWS](https://github.com/aws/aws-sdk-ios) 亚马逊Web服务iOS开发包(Star 182)
  * [Zendesk](https://github.com/zendesk/zendesk_sdk_ios) Zendesk移动iOS开发包(Star 8)
 
@@ -231,15 +231,15 @@
 
 ### Plugins
  * [SCXcodeMiniMap](https://github.com/stefanceriu/SCXcodeMiniMap) - 为Xcode代码编辑器添加迷你映射图(MiniMap)的插件(Star 680).
- * [Show in Github](https://github.com/larsxschneider/ShowInGitHub) - 支持为当前在编辑器窗口中选中代码行，打开Github提交页面的Xcode插件(Star 181).
- * [BBUFullIssueNavigator](https://github.com/neonichu/BBUFullIssueNavigator) - 支持在Issue浏览器中现实所有issue的Xcode插件(Star 187).
- * [BBUDebuggerTuckAway](https://github.com/neonichu/BBUDebuggerTuckAway) - 一旦在代码编辑器中进行编码操作，该插件就能帮助自动隐藏调试器X(Star 484).
+ * [Show in Github](https://github.com/larsxschneider/ShowInGitHub) - 为当前在编辑器窗口中选中代码行，打开Github提交页面的Xcode插件(Star 181).
+ * [BBUFullIssueNavigator](https://github.com/neonichu/BBUFullIssueNavigator) - 支持在Issue导览器中显示所有issue的Xcode插件(Star 187).
+ * [BBUDebuggerTuckAway](https://github.com/neonichu/BBUDebuggerTuckAway) - 一旦在代码编辑器中进行编辑操作，该插件就能自动隐藏调试器(Star 484).
  * [SCXcodeSwitchExpander](https://github.com/stefanceriu/SCXcodeSwitchExpander) - 该插件提供switch case语句自动补全功能(Star 304)S.
- * [VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode) - 帮助简化Javadoc风格文档编写的xcode插件(Star. 3338)
+ * [VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode) - 简化Javadoc风格文档编写的xcode插件(Star. 3338)
  * [XAlign](https://github.com/qfish/XAlign) - 一个很棒的常规代码对齐Xcode插件，通过使用自定义对齐模版，可以对齐任何东东(Star 1324).
  * [Cocoapods Xcode Plugin](https://github.com/kattrali/cocoapods-xcode-plugin) - CocoaPods的依赖管理器插件(Star 1391).
- * [KSImageNamed-Xcode](https://github.com/ksuther/KSImageNamed-Xcode) - 提供imageNamed调用自动补全的Xcode插件(Star 2471).
- * [ColorSense-for-Xcode](https://github.com/omz/ColorSense-for-Xcode) - 增强色彩开发可视化的Xcode插件(Star 2031).
+ * [KSImageNamed-Xcode](https://github.com/ksuther/KSImageNamed-Xcode) - 提供imageNamed自动补全的Xcode插件(Star 2471).
+ * [ColorSense-for-Xcode](https://github.com/omz/ColorSense-for-Xcode) - 增强色彩编辑可视化的Xcode插件(Star 2031).
  * [Backlight-for-XCode](https://github.com/limejelly/Backlight-for-XCode) - 高亮显示当前编辑行的Xcode插件(Star 128)
 
 ### Package Manager
@@ -259,13 +259,13 @@
 * [Brian Advent youtube channel](https://www.youtube.com/channel/UCysEngjfeIYapEER9K8aikw/videos) - Swift教程Youtube频道.
 
 ### UI
-* [JLToast](https://github.com/devxoul/JLToast) - Swift编写的, iOS上Android风格Toast提示器实现(Star 159).
-* [SweetAlert](https://github.com/codestergit/SweetAlert-iOS) - Swift编写的iOS动画报警视图控件(Star 382).
+* [JLToast](https://github.com/devxoul/JLToast) - Swift编写的, iOS上显示Android风格Toast提示器的组件(Star 159).
+* [SweetAlert](https://github.com/codestergit/SweetAlert-iOS) - Swift编写的iOS动画报警视图组件(Star 382).
 
 # Style Guides
 * [NY Times - Objective C Style Guide](https://github.com/NYTimes/objective-c-style-guide) - The New York Times使用的objective-C编码风格指南(Star 3001) 
-* [raywenderlich Style Guide](https://github.com/raywenderlich/objective-c-style-guide) - 概述了raywenderlich.com约定的编码风格指南(Star 1270)
-* [Github Objective-C Style Guide](https://github.com/github/objective-c-style-guide) - Objective-C项目的风格指南和编码约定(Star 1147)
+* [raywenderlich Style Guide](https://github.com/raywenderlich/objective-c-style-guide) - 概述了raywenderlich.com约定的编码风格(Star 1270)
+* [Github Objective-C Style Guide](https://github.com/github/objective-c-style-guide) - Objective-C项目的编码风格指南和编码约定(Star 1147)
 * [Objective-C Coding Convention and Best Practices](https://gist.github.com/soffes/812796) - objective-c编码规范和最佳实践
 
 # Good Websites
@@ -331,8 +331,8 @@
 
 # Other Awesome Lists
 其他很棒的iOS资源列表如下     
- * [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) 强上强列表(Star 10434).
- * [Open Source apps](https://github.com/dkhamsing/open-source-ios-apps) 开源iOS应用列表(Star 86). l
+ * [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) “强中强”资源列表(Star 10434).
+ * [Open Source apps](https://github.com/dkhamsing/open-source-ios-apps) 开源的iOS应用列表(Star 86). l
  * Awesome-swift
    * [@matteocrippa](https://github.com/matteocrippa/awesome-swift) - 很棒的Swift资源协作列表(Star 782)
    * [@Wolg](https://github.com/Wolg/awesome-swift) - 很棒的Swift框架，库和软件的列表(Star 485).
