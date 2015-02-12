@@ -245,30 +245,30 @@ The list is divided into categories such as Frameworks, Components, Testing and 
  * [Backlight-for-XCode](https://github.com/limejelly/Backlight-for-XCode) - 高亮显示当前编辑行的Xcode插件(Star 128)
 
 ### Package Manager
- * [Alcatraz](http://alcatraz.io/) - The package manager for Xcode.
+ * [Alcatraz](http://alcatraz.io/) - Xcode包管理器.
 
 ### Themes
- * [Dracula Theme](https://github.com/zenorocha/dracula-theme) - A dark theme for Xcode
- * [Xcode themes list](https://github.com/hdoria/xcode-themes) - Color themes for Xcode.
- * [Solarized-Dark-for-Xcode](https://github.com/ArtSabintsev/Solarized-Dark-for-Xcode/) - Solarized Dark Theme for Xcode 5.
+ * [Dracula Theme](https://github.com/zenorocha/dracula-theme) - Xcode深色主题(Star 641)
+ * [Xcode themes list](https://github.com/hdoria/xcode-themes) - Xcode颜色主题(Star 566)
+ * [Solarized-Dark-for-Xcode](https://github.com/ArtSabintsev/Solarized-Dark-for-Xcode/) - Xcode5 Solarized Dark主题(Star 109).
 
 # Swift
 
 ### Websites
-* [Apple's Swift Blog](https://developer.apple.com/swift/blog/) - Offical Swift blog from Apple.
+* [Apple's Swift Blog](https://developer.apple.com/swift/blog/) - Apple官方Swift博客.
 
 ### Videos
-* [Brian Advent youtube channel](https://www.youtube.com/channel/UCysEngjfeIYapEER9K8aikw/videos) - Swift tutorials Youtube Channel.
+* [Brian Advent youtube channel](https://www.youtube.com/channel/UCysEngjfeIYapEER9K8aikw/videos) - Swift教程Youtube频道.
 
 ### UI
-* [JLToast](https://github.com/devxoul/JLToast) - Toast for iOS with very simple interface. Written in Swift.
-* [SweetAlert](https://github.com/codestergit/SweetAlert-iOS) - Live animated Alert View for iOS written in Swift.
+* [JLToast](https://github.com/devxoul/JLToast) - Swift编写的, iOS上Android风格Toast提示器实现(Star 159).
+* [SweetAlert](https://github.com/codestergit/SweetAlert-iOS) - Swift编写的iOS动画报警视图控件(Star 382).
 
 # Style Guides
-* [NY Times - Objective C Style Guide](https://github.com/NYTimes/objective-c-style-guide) - The Objective-C Style Guide used by The New York Times
-* [raywenderlich Style Guide](https://github.com/raywenderlich/objective-c-style-guide) - A style guide that outlines the coding conventions for raywenderlich.com
-* [Github Objective-C Style Guide](https://github.com/github/objective-c-style-guide) - Style guide & coding conventions for Objective-C projects
-* [Objective-C Coding Convention and Best Practices](https://gist.github.com/soffes/812796) - Gist with coding conventions
+* [NY Times - Objective C Style Guide](https://github.com/NYTimes/objective-c-style-guide) - The New York Times使用的objective-C编码风格指南(Star 3001) 
+* [raywenderlich Style Guide](https://github.com/raywenderlich/objective-c-style-guide) - 概述了raywenderlich.com约定的编码风格指南(Star 1270)
+* [Github Objective-C Style Guide](https://github.com/github/objective-c-style-guide) - Objective-C项目的风格指南和编码约定(Star 1147)
+* [Objective-C Coding Convention and Best Practices](https://gist.github.com/soffes/812796) - objective-c编码规范和最佳实践
 
 # Good Websites
 
