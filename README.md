@@ -332,12 +332,12 @@ The list is divided into categories such as Frameworks, Components, Testing and 
  * [Your First iOS App by Ash Furrow](https://leanpub.com/your-first-ios-app)
 
 # Other Awesome Lists
-Other amazingly awesome lists can be found in the     
- * [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) list.
- * [Open Source apps](https://github.com/dkhamsing/open-source-ios-apps) list of open source ios apps
+其他很棒的iOS资源列表如下     
+ * [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) 强上强列表(Star 10434).
+ * [Open Source apps](https://github.com/dkhamsing/open-source-ios-apps) 开源iOS应用列表(Star 86). l
  * Awesome-swift
-   * [@matteocrippa](https://github.com/matteocrippa/awesome-swift) - A collaborative list of awesome swift resources. 
-   * [@Wolg](https://github.com/Wolg/awesome-swift) - A curated list of awesome Swift frameworks, libraries and software.
+   * [@matteocrippa](https://github.com/matteocrippa/awesome-swift) - 很棒的Swift资源协作列表(Star 782)
+   * [@Wolg](https://github.com/Wolg/awesome-swift) - 很棒的Swift框架，库和软件的列表(Star 485).
 
 # Contributing
 [See the guide](https://github.com/vsouza/awesome-ios/blob/master/CONTRIBUTING.md)
