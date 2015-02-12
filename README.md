@@ -215,34 +215,34 @@ The list is divided into categories such as Frameworks, Components, Testing and 
  * [snapshot](https://github.com/krausefx/snapshot) 自动创建所有语言，所有设备的应用截屏(Star 812).
 
 # SDK
- * [Spotify](https://github.com/spotify/ios-sdk) Spotify iOS SDK(Star 328)
- * [Facebook](https://github.com/facebook/facebook-ios-sdk) Facebook iOS SDK(Star 4670)
- * [Google Analytics](https://developers.google.com/analytics/devguides/collection/ios/v3/) Google Analytics SDK for iOS
- * [Paypal iOS SDK](https://github.com/paypal/PayPal-iOS-SDK) The PayPal Mobile SDKs enable native apps to easily accept PayPal and credit card payments.
- * [Pocket](https://github.com/Pocket/Pocket-ObjC-SDK) SDK for saving stuff to Pocket
- * [Tumblr](https://github.com/tumblr/TMTumblrSDK) Library for easily integrating Tumblr data into your iOS or OS X application.
- * [Evernote](https://github.com/evernote/evernote-sdk-ios) Evernote SDK for iOS
- * [Box](https://github.com/box/box-ios-sdk-v2) iOS + OS X SDK for the Box API
- * [OneDrive](https://github.com/liveservices/LiveSDK-for-iOS) Live SDK for iOS
- * [Stripe](https://github.com/stripe/stripe-ios) Stripe bindings for iOS and OS X 
- * [Venmo](https://github.com/venmo/venmo-ios-sdk) Make and accept payments in your iOS app via Venmo
- * [AWS](https://github.com/aws/aws-sdk-ios) Amazon Web Services Mobile SDK for iOS
- * [Zendesk](https://github.com/zendesk/zendesk_sdk_ios) Zendesk Mobile SDK for iOS
+ * [Spotify](https://github.com/spotify/ios-sdk) Spotify iOS开发包(Star 328)
+ * [Facebook](https://github.com/facebook/facebook-ios-sdk) Facebook iOS开发包(Star 4670)
+ * [Google Analytics](https://developers.google.com/analytics/devguides/collection/ios/v3/) 谷歌分析IOS开发包
+ * [Paypal iOS SDK](https://github.com/paypal/PayPal-iOS-SDK) 贝宝移动开发包，帮助原生应用轻松支持贝宝和信用卡支付功能(Star 365).
+ * [Pocket](https://github.com/Pocket/Pocket-ObjC-SDK) 保存信息到Pocket的开发包(Star 153)
+ * [Tumblr](https://github.com/tumblr/TMTumblrSDK) 方便集成Tumblr数据到iOS或者OS X应用的开发包(Star 246).
+ * [Evernote](https://github.com/evernote/evernote-sdk-ios) Evernote IOS开发包(Star 381)
+ * [Box](https://github.com/box/box-ios-sdk-v2) 支持Box API的iOS和OS X开发包(Star 123)
+ * [OneDrive](https://github.com/liveservices/LiveSDK-for-iOS) Live iOS开发包(Star 129)
+ * [Stripe](https://github.com/stripe/stripe-ios) Stripe iOS和OS X绑定库(Star 331) 
+ * [Venmo](https://github.com/venmo/venmo-ios-sdk) 通过Venmo,为iOS应用提供建立和接受支付的能力(Star 54)
+ * [AWS](https://github.com/aws/aws-sdk-ios) 亚马逊Web服务iOS开发包(Star 182)
+ * [Zendesk](https://github.com/zendesk/zendesk_sdk_ios) Zendesk移动iOS开发包(Star 8)
 
 # Xcode
 
 ### Plugins
- * [SCXcodeMiniMap](https://github.com/stefanceriu/SCXcodeMiniMap) - SCXcodeMiniMap is a plugin that adds a source editor MiniMap to Xcode.
- * [Show in Github](https://github.com/larsxschneider/ShowInGitHub) - Xcode plugin to open the GitHub page of the commit of the currently selected line in the editor window.
- * [BBUFullIssueNavigator](https://github.com/neonichu/BBUFullIssueNavigator) - Xcode plugin for showing all issue content in the issue navigator.
- * [BBUDebuggerTuckAway](https://github.com/neonichu/BBUDebuggerTuckAway) - Xcode plugin for auto-hiding the debugger once you start typing in the source code editor.
- * [SCXcodeSwitchExpander](https://github.com/stefanceriu/SCXcodeSwitchExpander) - SCXcodeSwitchExpander is a small Xcode plugin that expands switch statements by inserting missing cases.
- * [VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode) - Xcode plug-in which helps you write Javadoc style documents easier.
- * [XAlign](https://github.com/qfish/XAlign) - An amazing Xcode plugin to align regular code. It can align anything by using custom alignment patterns.
- * [Cocoapods Xcode Plugin](https://github.com/kattrali/cocoapods-xcode-plugin) - Dependency management helper for your CocoaPods, right in Xcode.
- * [KSImageNamed-Xcode](https://github.com/ksuther/KSImageNamed-Xcode) - Xcode plug-in that provides autocomplete for imageNamed: calls.
- * [ColorSense-for-Xcode](https://github.com/omz/ColorSense-for-Xcode) - Plugin for Xcode to make working with colors more visual.
- * [Backlight-for-XCode](https://github.com/limejelly/Backlight-for-XCode) - Highlights the current editing line in Xcode
+ * [SCXcodeMiniMap](https://github.com/stefanceriu/SCXcodeMiniMap) - 为Xcode代码编辑器添加迷你映射图(MiniMap)的插件(Star 680).
+ * [Show in Github](https://github.com/larsxschneider/ShowInGitHub) - 支持为当前在编辑器窗口中选中代码行，打开Github提交页面的Xcode插件(Star 181).
+ * [BBUFullIssueNavigator](https://github.com/neonichu/BBUFullIssueNavigator) - 支持在Issue浏览器中现实所有issue的Xcode插件(Star 187).
+ * [BBUDebuggerTuckAway](https://github.com/neonichu/BBUDebuggerTuckAway) - 一旦在代码编辑器中进行编码操作，该插件就能帮助自动隐藏调试器X(Star 484).
+ * [SCXcodeSwitchExpander](https://github.com/stefanceriu/SCXcodeSwitchExpander) - 该插件提供switch case语句自动补全功能(Star 304)S.
+ * [VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode) - 帮助简化Javadoc风格文档编写的xcode插件(Star. 3338)
+ * [XAlign](https://github.com/qfish/XAlign) - 一个很棒的常规代码对齐Xcode插件，通过使用自定义对齐模版，可以对齐任何东东(Star 1324).
+ * [Cocoapods Xcode Plugin](https://github.com/kattrali/cocoapods-xcode-plugin) - CocoaPods的依赖管理器插件(Star 1391).
+ * [KSImageNamed-Xcode](https://github.com/ksuther/KSImageNamed-Xcode) - 提供imageNamed调用自动补全的Xcode插件(Star 2471).
+ * [ColorSense-for-Xcode](https://github.com/omz/ColorSense-for-Xcode) - 增强色彩开发可视化的Xcode插件(Star 2031).
+ * [Backlight-for-XCode](https://github.com/limejelly/Backlight-for-XCode) - 高亮显示当前编辑行的Xcode插件(Star 128)
 
 ### Package Manager
  * [Alcatraz](http://alcatraz.io/) - The package manager for Xcode.
